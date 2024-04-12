@@ -44,7 +44,7 @@ section {
     background-color: #b3d9ff;
     overflow: auto;
     width: 300px;
-    height: calc(100vh*1.5);
+    height: 100%;
     text-align: center;
     position: relative;
     left: -33px; 
