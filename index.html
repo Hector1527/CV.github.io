@@ -1,20 +1,20 @@
 <link rel="stylesheet" href="index.css">
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <!-- Tu encabezado y enlaces a estilos y scripts -->
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum Vitae</title>
     <link rel="stylesheet" href="index.css">
     <script>
-        window.onload = function() {
+        window.onload = function () {
             var experienciaLaboral = document.querySelector('.experiencia-laboral');
             var informacionPersonal = document.querySelector('.informacion-personal');
             informacionPersonal.style.height = experienciaLaboral.offsetHeight + 'px';
         }
     </script>
 </head>
+
 <body>
     <header>
         <div class="profile-container">
@@ -75,32 +75,44 @@
             <ul>
                 <li>
                     <h4>Proyecto de Matemática Discreta I</h4>
-                    <p>Implementacion de un circuito que permite calcular la raiz cuadrada de un número binario de 5 bits.</p>
+                    <p>Implementacion de un circuito que permite calcular la raiz cuadrada de un número binario de 5
+                        bits.</p>
                     <p>Tecnologías utilizadas: Logisim</p>
                 </li>
                 <li>
                     <h4>Proyecto de Matemática Discreta II </h4>
-                    <p>Implementación de un árbol binario completo con todas sus funciones, capaz de manejar cualquier tipo de dato.</p>
+                    <p>Implementación de un árbol binario completo con todas sus funciones, capaz de manejar cualquier
+                        tipo de dato.</p>
                     <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
                 </li>
                 <li>
                     <h4>Proyecto 1 de Introducción a la Programación</h4>
-                    <p>Desarrollo del juego Snake en C#, con funciones como detección de colisiones y seguimiento de puntuación.</p>
+                    <p>Desarrollo del juego Snake en C#, con funciones como detección de colisiones y seguimiento de
+                        puntuación.</p>
                     <p>Tecnologías utilizadas: Visual Studio 2022, C#</p>
                 </li>
                 <li>
                     <h4>Proyecto 2 de Introducción a la Programación </h4>
-                    <p>Creación de un juego de Sonda Espacial Ada utilizando Windows Forms en C++. Incluyó funciones para detectar colisiones con asteroides, un sistema de instrucciones y seguimiento de la posición y combustible de la sonda.</p>
+                    <p>Creación de un juego de Sonda Espacial Ada utilizando Windows Forms en C++. Incluyó funciones
+                        para detectar colisiones con asteroides, un sistema de instrucciones y seguimiento de la
+                        posición y combustible de la sonda.</p>
                     <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
                 </li>
                 <li>
                     <h4>Proyecto 1 de Programación Avanzada</h4>
-                    <p>Desarrollo de un reproductor de canciones en Windows Forms. Incluyó colas para la reproducción, temporizador para cambiar automáticamente de canción, y mecanismos de ordenamiento por autor, nombre y duración. Se añadió la capacidad de cargar canciones desde archivos de texto, con detección de errores de sintaxis. También se permitió agrupar canciones por disco y realizar acciones como agregar, eliminar, reproducir y saltar canciones.</p>
+                    <p>Desarrollo de un reproductor de canciones en Windows Forms. Incluyó colas para la reproducción,
+                        temporizador para cambiar automáticamente de canción, y mecanismos de ordenamiento por autor,
+                        nombre y duración. Se añadió la capacidad de cargar canciones desde archivos de texto, con
+                        detección de errores de sintaxis. También se permitió agrupar canciones por disco y realizar
+                        acciones como agregar, eliminar, reproducir y saltar canciones.</p>
                     <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
                 </li>
                 <li>
                     <h4>Proyecto 2 de Programación Avanzada</h4>
-                    <p>Desarrollo de un sistema automatizado de gestión de medicamentos para una farmacia, que incluyó: gestión de información y proveedores, control de inventario, registro y actualización de medicamentos, generación de informes, exportación de datos a CSV, cálculo del precio promedio, y filtrado de medicamentos por varios criterios.</p>
+                    <p>Desarrollo de un sistema automatizado de gestión de medicamentos para una farmacia, que incluyó:
+                        gestión de información y proveedores, control de inventario, registro y actualización de
+                        medicamentos, generación de informes, exportación de datos a CSV, cálculo del precio promedio, y
+                        filtrado de medicamentos por varios criterios.</p>
                     <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
                 </li>
             </ul>
@@ -110,16 +122,17 @@
         function ajustarAltura() {
             var experienciaLaboral = document.querySelector('.experiencia-laboral');
             var informacionPersonal = document.querySelector('.informacion-personal');
-    
+
             if (window.innerWidth <= 768) {
-                informacionPersonal.style.height = 'auto'; 
+                informacionPersonal.style.height = 'auto';
             } else {
                 informacionPersonal.style.height = experienciaLaboral.offsetHeight + 'px';
             }
         }
-    
+
         window.onload = ajustarAltura;
         window.addEventListener('resize', ajustarAltura);
     </script>
 </body>
+
 </html>
