@@ -3,6 +3,7 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum Vitae</title>
     <link rel="stylesheet" href="index.css">
@@ -14,7 +15,6 @@
         }
     </script>
 </head>
-
 <body>
     <header>
         <div class="profile-container">
@@ -57,66 +57,85 @@
             </ul>
         </div>
         <div class="experiencia-laboral">
-            <h2>Educación</h2>
+            <h2 style="border-bottom: 2px solid #185382;">Educación</h2>
             <ul>
                 <li>
-                    <h4>Bachillerato en Computación con Orientación Científica</h4>
-                    <p>Lugar: Guatemala</p>
-                    <p>Periodo: 2021-2022</p>
+                    <div class="educacion-title">
+                        <h4>Bachillerato en Computación con Orientación Científica</h4>
+                        <p>Lugar: Guatemala</p>
+                        <p>Periodo: 2021-2022</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Estudios Universitarios</h4>
-                    <p>Ingeniería en Informática y Sistemas</p>
-                    <p>Universidad Rafael Landívar</p>
-                    <p>Inicio en 2023 - Presente</p>
+                    <div class="educacion-title">
+                        <h4>Estudios Universitarios</h4>
+                        <p>Ingeniería en Informática y Sistemas</p>
+                        <p>Universidad Rafael Landívar</p>
+                        <p>Inicio en 2023 - Presente</p>
+                    </div>
                 </li>
             </ul>
-            <h2>Proyectos Académicos</h2>
+            <hr style="border-color: #185382; margin-bottom: 20px; width: 100%;">
+            <h2 style="border-bottom: 2px solid #185382;">Proyectos Académicos</h2>
             <ul>
                 <li>
-                    <h4>Proyecto de Matemática Discreta I</h4>
-                    <p>Implementacion de un circuito que permite calcular la raiz cuadrada de un número binario de 5
-                        bits.</p>
-                    <p>Tecnologías utilizadas: Logisim</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto de Matemática Discreta I</h4>
+                        <p>Implementacion de un circuito que permite calcular la raiz cuadrada de un número binario de 5
+                            bits.</p>
+                        <p>Tecnologías utilizadas: Logisim</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Proyecto de Matemática Discreta II </h4>
-                    <p>Implementación de un árbol binario completo con todas sus funciones, capaz de manejar cualquier
-                        tipo de dato.</p>
-                    <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto de Matemática Discreta II</h4>
+                        <p>Implementación de un árbol binario completo con todas sus funciones, capaz de manejar
+                            cualquier tipo de dato.</p>
+                        <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Proyecto 1 de Introducción a la Programación</h4>
-                    <p>Desarrollo del juego Snake en C#, con funciones como detección de colisiones y seguimiento de
-                        puntuación.</p>
-                    <p>Tecnologías utilizadas: Visual Studio 2022, C#</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto 1 de Introducción a la Programación</h4>
+                        <p>Desarrollo del juego Snake en C#, con funciones como detección de colisiones y seguimiento de
+                            puntuación.</p>
+                        <p>Tecnologías utilizadas: Visual Studio 2022, C#</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Proyecto 2 de Introducción a la Programación </h4>
-                    <p>Creación de un juego de Sonda Espacial Ada utilizando Windows Forms en C++. Incluyó funciones
-                        para detectar colisiones con asteroides, un sistema de instrucciones y seguimiento de la
-                        posición y combustible de la sonda.</p>
-                    <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto 2 de Introducción a la Programación</h4>
+                        <p>Creación de un juego de Sonda Espacial Ada utilizando Windows Forms en C++. Incluyó funciones
+                            para detectar colisiones con asteroides, un sistema de instrucciones y seguimiento de la
+                            posición y combustible de la sonda.</p>
+                        <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Proyecto 1 de Programación Avanzada</h4>
-                    <p>Desarrollo de un reproductor de canciones en Windows Forms. Incluyó colas para la reproducción,
-                        temporizador para cambiar automáticamente de canción, y mecanismos de ordenamiento por autor,
-                        nombre y duración. Se añadió la capacidad de cargar canciones desde archivos de texto, con
-                        detección de errores de sintaxis. También se permitió agrupar canciones por disco y realizar
-                        acciones como agregar, eliminar, reproducir y saltar canciones.</p>
-                    <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto 1 de Programación Avanzada</h4>
+                        <p>Desarrollo de un reproductor de canciones en Windows Forms. Incluyó colas para la
+                            reproducción, temporizador para cambiar automáticamente de canción, y mecanismos de
+                            ordenamiento por autor, nombre y duración. Se añadió la capacidad de cargar canciones desde
+                            archivos de texto, con detección de errores de sintaxis. También se permitió agrupar
+                            canciones por disco y realizar acciones como agregar, eliminar, reproducir y saltar
+                            canciones.</p>
+                        <p>Tecnologías: Visual Studio 2022, Windows Forms en C++</p>
+                    </div>
                 </li>
                 <li>
-                    <h4>Proyecto 2 de Programación Avanzada</h4>
-                    <p>Desarrollo de un sistema automatizado de gestión de medicamentos para una farmacia, que incluyó:
-                        gestión de información y proveedores, control de inventario, registro y actualización de
-                        medicamentos, generación de informes, exportación de datos a CSV, cálculo del precio promedio, y
-                        filtrado de medicamentos por varios criterios.</p>
-                    <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
+                    <div class="proyecto-title">
+                        <h4>Proyecto 2 de Programación Avanzada</h4>
+                        <p>Desarrollo de un sistema automatizado de gestión de medicamentos para una farmacia, que
+                            incluyó: gestión de información y proveedores, control de inventario, registro y
+                            actualización de medicamentos, generación de informes, exportación de datos a CSV, cálculo
+                            del precio promedio, y filtrado de medicamentos por varios criterios.</p>
+                        <p>Tecnologías utilizadas: Visual Studio 2022, C++</p>
+                    </div>
                 </li>
             </ul>
         </div>
+        <div class="ola-de-mar"></div>
     </main>
     <script>
         function ajustarAltura() {
@@ -129,10 +148,8 @@
                 informacionPersonal.style.height = experienciaLaboral.offsetHeight + 'px';
             }
         }
-
         window.onload = ajustarAltura;
         window.addEventListener('resize', ajustarAltura);
     </script>
 </body>
-
 </html>

@@ -43,13 +43,10 @@ section {
     margin-right: 30px;
     background-color: #b3d9ff;
     color: #333333;
-    overflow: auto;
     width: 300px;
     height: 100%;
     text-align: center;
     position: relative;
-    left: -33px; 
-    top: -33px; 
 }
 
 h1,
@@ -184,6 +181,34 @@ a {
         margin: 0;
         padding: 2rem;
     }
+
+    .proyecto-title {
+        width: 100%; /* Ajustar el ancho al 90% del contenedor */
+        margin: 0 ; /* Centrar horizontalmente */
+        margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+    .proyecto-title p {
+        width: 100%; /* Ajustar el ancho al 100% del contenedor */
+        margin: 0; /* Eliminar margen */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 5px; /* Borde redondeado */
+        border: 2px solid #185382; /* Borde sólido */
+    }
+
+    .educacion-title {
+        width: 100%; /* Ajustar el ancho al 90% del contenedor */
+        margin: 0 ; /* Centrar horizontalmente */
+        margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+    .educacion-title p {
+        width: 100%; /* Ajustar el ancho al 100% del contenedor */
+        margin: 0; /* Eliminar margen */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 5px; /* Borde redondeado */
+        border: 2px solid #185382; /* Borde sólido */
+    }
 }
 
 @media (max-width: 480px) {
@@ -210,4 +235,72 @@ a {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+    .proyecto-title {
+        width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 20px;
+    }
+
+    .proyecto-title p {
+        width: 100%; 
+        margin: 0; 
+        padding: 10px; 
+        border-radius: 5px; 
+        border: 2px solid #185382;
+    }
+
+    .educacion-title {
+        width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 20px;
+    }
+
+    .educacion-title p {
+        width: 100%; 
+        margin: 0; 
+        padding: 10px; 
+        border-radius: 5px; 
+        border: 2px solid #185382;
+    }
+}
+
+.proyecto-title {
+    background-color: #d7e9fb; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    border: 2px solid #185382; 
+    max-width: 100%; 
+    width: auto; 
+    box-sizing: border-box; 
+}
+
+.proyecto-title p {
+    background-color: #ffffff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 2px solid #185382;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.educacion-title {
+    background-color: #d7e9fb; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    border: 2px solid #185382; 
+    max-width: 100%; 
+    width: auto; 
+    box-sizing: border-box;
+}
+
+.educacion-title p {
+    background-color: #ffffff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 2px solid #185382;
+    width: 100%;
+    box-sizing: border-box; 
 }
