@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -43,8 +44,8 @@ section {
     margin-right: 30px;
     background-color: #b3d9ff;
     color: #333333;
-    width: 300px;
-    height: 100%;
+    width: 32vh;
+    height: 100vh;
     text-align: center;
     position: relative;
 }
@@ -179,7 +180,7 @@ a {
         height: 100%;
         float: none;
         margin: 0;
-        padding: 2rem;
+        margin-left: -20px;
     }
 
     .proyecto-title {
