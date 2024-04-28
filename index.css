@@ -152,7 +152,7 @@ a {
 
 .estrellas {
     font-size: 20px; 
-    color: #ffffff; 
+    color: #0049e4; 
 }
 
 @media (max-width: 768px) {
@@ -303,4 +303,12 @@ a {
     border: 2px solid #185382;
     width: 100%;
     box-sizing: border-box; 
+}
+
+.info-personal {
+    background-color: #effeff;
+    padding: 1px; 
+    border-radius: 5px;
+    border: 2px solid #185382;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
