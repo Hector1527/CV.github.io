@@ -284,6 +284,10 @@ a {
         margin: 2rem auto;
     }
 
+    .informacion-personal {
+        width: auto; /* Limitar el ancho al 90% del contenedor */
+        margin: 0 auto; /* Centrar horizontalmente */
+    }
 }
 
 
