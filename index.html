@@ -7,13 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum Vitae</title>
     <link rel="stylesheet" href="index.css">
-    <script>
-        window.onload = function () {
-            var experienciaLaboral = document.querySelector('.experiencia-laboral');
-            var informacionPersonal = document.querySelector('.informacion-personal');
-            informacionPersonal.style.height = experienciaLaboral.offsetHeight + 'px';
-        }
-    </script>
 </head>
 
 <body>
@@ -25,7 +18,7 @@
         </div>
         <div class="header-text">
             <h1>Hector Pérez</h1>
-            <h3>Estudiante Ingeniería en Informática y Sistemas</h3>
+            <h3>Estudiante en Ingeniería en Informática y Sistemas</h3>
         </div>
     </header>
     <main>
@@ -34,8 +27,8 @@
             <h4>Contacto</h4>
             <div class="info-personal">
                 <p>Nombre: Hector Pérez</p>
-                <p>Correo Electrónico: correodejemplo@gmail.com</p>
-                <p>Teléfono: +502 1234-5678</p>
+                <p>Correo Electrónico: hector09.perezgonzalez@gmail.com</p>
+                <p>Teléfono: +502 4679 3297</p>
                 <p>Dirección: Guatemala</p>
             </div>
 
@@ -43,7 +36,7 @@
             <div class="info-personal">
                 <ul>
                     <li>Diseño web con HTML, CSS y JavaScript</li>
-                    <li>Programación con C++, C# Y Java</li>
+                    <li>Programación con C++, C# y Python</li>
                     <li>Resolución de problemas</li>
                     <li>Trabajo en equipo</li>
                     <li>Uso de Git Bash</li>
@@ -53,15 +46,7 @@
             <div class="info-personal">
                 <ul>
                     <li>Español: <span class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</span></li>
-                    <li>Inglés: <span class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9734;</span></li>
-                </ul>
-            </div>
-            <h4>Pasatiempos</h4>
-            <div class="info-personal">
-                <ul>
-                    <li>Leer</li>
-                    <li>Hacer ejercicio</li>
-                    <li>Programación en LeetCode</li>
+                    <li>Inglés (B2): <span class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9734;</span></li>
                 </ul>
             </div>
         </div>
@@ -144,22 +129,7 @@
                 </li>
             </ul>
         </div>
-        <div class="ola-de-mar"></div>
     </main>
-    <script>
-        function ajustarAltura() {
-            var experienciaLaboral = document.querySelector('.experiencia-laboral');
-            var informacionPersonal = document.querySelector('.informacion-personal');
-
-            if (window.innerWidth <= 768) {
-                informacionPersonal.style.height = 'auto';
-            } else {
-                informacionPersonal.style.height = experienciaLaboral.offsetHeight + 'px';
-            }
-        }
-        window.onload = ajustarAltura;
-        window.addEventListener('resize', ajustarAltura);
-    </script>
 </body>
 
 </html>
